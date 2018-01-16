@@ -31,6 +31,7 @@
             android:layout_height="77dp"
             android:layout_weight="1"
             android:maxHeight="10dp"
+            android:id="@+id/b1"
             android:paddingBottom="10dp"
             android:paddingTop="5dp"
             android:src="@mipmap/ic_launcher_round" />
@@ -39,6 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:id="@+id/b2"
             android:maxHeight="10dp"
             android:paddingBottom="10dp"
             android:src="@mipmap/ic_launcher_round" />
@@ -49,6 +51,7 @@
             android:layout_weight="1"
             android:maxHeight="10dp"
             android:paddingBottom="10dp"
+            android:id="@+id/b3"
             android:src="@mipmap/ic_launcher_round" />
 
         <ImageButton
@@ -56,6 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:maxHeight="10dp"
+            android:id="@+id/b4"
             android:paddingBottom="10dp"
             android:src="@mipmap/ic_launcher_round" />
 
@@ -64,6 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:maxHeight="10dp"
+            android:id="@+id/b5"
             android:paddingBottom="10dp"
             android:src="@mipmap/ic_launcher_round" />
 
@@ -72,7 +77,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:maxHeight="10dp"
+            android:id="@+id/b6"
             android:paddingBottom="10dp"
             android:src="@mipmap/ic_launcher_round" />
+
     </LinearLayout>
 </LinearLayout>
