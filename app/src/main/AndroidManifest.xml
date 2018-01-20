@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.eddie.frame_foral">
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -18,9 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Overlay_activity" android:theme="@style/Theme.AppCompat.Translucent"/>
+        <activity android:name=".Overlay_activity" android:theme="@style/Theme.AppCompat.Translucent.NoActionBar"/>
 
-        <service android:name=".Web" />
+        <service android:name=".Calce"  />
+        <service android:name=".web"/>
+        <service android:name=".Dictionar">
+            android:windo
+        </service>
     </application>
 
 </manifest>

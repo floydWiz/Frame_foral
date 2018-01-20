@@ -32,7 +32,6 @@ int i;
                 @Override
                 public void onClick(View v) {
                     Intent i =new Intent(MainActivity.this,Overlay_activity.class);
-
                     i.putExtra("buttonid",buttons.get(0).getId());
                     MainActivity.this.startActivity(i);
                 }
@@ -42,7 +41,6 @@ int i;
                 @Override
                 public void onClick(View v) {
                     Intent i1 =new Intent(MainActivity.this,Overlay_activity.class);
-
                     i1.putExtra("buttonid",buttons.get(1).getId());
                     MainActivity.this.startActivity(i1);
                 }
@@ -51,7 +49,6 @@ int i;
                 @Override
                 public void onClick(View v) {
                     Intent i2 =new Intent(MainActivity.this,Overlay_activity.class);
-
                     i2.putExtra("buttonid",buttons.get(2).getId());
                     MainActivity.this.startActivity(i2);
                 }
@@ -61,7 +58,6 @@ int i;
                 @Override
                 public void onClick(View v) {
                     Intent i3 =new Intent(MainActivity.this,Overlay_activity.class);
-
                     i3.putExtra("buttonid",buttons.get(3).getId());
                     MainActivity.this.startActivity(i3);
                 }
@@ -71,7 +67,6 @@ int i;
                 @Override
                 public void onClick(View v) {
                     Intent i4 =new Intent(MainActivity.this,Overlay_activity.class);
-
                     i4.putExtra("buttonid",buttons.get(4).getId());
                     MainActivity.this.startActivity(i4);
                 }
@@ -81,7 +76,6 @@ int i;
                 @Override
                 public void onClick(View v) {
                     Intent i5 =new Intent(MainActivity.this,Overlay_activity.class);
-
                     i5.putExtra("buttonid",buttons.get(5).getId());
                     MainActivity.this.startActivity(i5);
                 }
